@@ -163,7 +163,7 @@ Tue Jun 18 12:20:23 UTC 2013 - jreidinger@suse.com
 -------------------------------------------------------------------
 Tue Jun 18 12:19:24 UTC 2013 - tgoettlicher@suse.de
 
-- Fix for bnc#811842: segfault in ncurses because of 
+- Fix for bnc#811842: segfault in ncurses because of
   uninitialized variable
 
 -------------------------------------------------------------------
@@ -284,9 +284,9 @@ Wed Feb 10 17:25:22 CET 2010 - tgoettlicher@suse.de
 -------------------------------------------------------------------
 Wed Mar 11 16:08:18 CET 2009 - kmachalkova@suse.cz
 
-- Do not abort in DumpWidgetTree function if there is no dialog 
+- Do not abort in DumpWidgetTree function if there is no dialog
   on the stack (log warning instead)
-- V 2.18.5  
+- V 2.18.5
 
 -------------------------------------------------------------------
 Fri Mar  6 10:32:32 CET 2009 - tgoettlicher@suse.de
@@ -298,7 +298,7 @@ Fri Mar  6 10:32:32 CET 2009 - tgoettlicher@suse.de
 Mon Feb  9 11:52:05 CET 2009 - sh@suse.de
 
 - Require latest libyui in spec file (API change)
-- V 2.18.3 
+- V 2.18.3
 
 -------------------------------------------------------------------
 Wed Jan 14 16:25:57 CET 2009 - aschnell@suse.de
@@ -311,7 +311,7 @@ Wed Oct 15 15:12:38 CEST 2008 - sh@suse.de
 
 - Added `opt(`confirmUnsupported) for PackageSelector widget
   (bnc #435479)
-- V 2.17.11 
+- V 2.17.11
 
 -------------------------------------------------------------------
 Thu Oct  9 17:49:57 CEST 2008 - sh@suse.de
@@ -322,7 +322,7 @@ Thu Oct  9 17:49:57 CEST 2008 - sh@suse.de
 -------------------------------------------------------------------
 Wed Oct  8 12:02:15 CEST 2008 - sh@suse.de
 
-- Export "y2debug" via UI::GetDisplayInfo() 
+- Export "y2debug" via UI::GetDisplayInfo()
 
 -------------------------------------------------------------------
 Tue Sep 30 16:27:20 CEST 2008 - tgoettlicher@suse.de
@@ -332,32 +332,32 @@ Tue Sep 30 16:27:20 CEST 2008 - tgoettlicher@suse.de
 -------------------------------------------------------------------
 Fri Sep 26 15:54:34 CEST 2008 - tgoettlicher@suse.de
 
-- Fixed bnc #418443: Yast modules windows have no title 
+- Fixed bnc #418443: Yast modules windows have no title
 - V 2.17.8
 
 -------------------------------------------------------------------
 Thu Sep 25 11:58:30 CEST 2008 - sh@suse.de
 
 - Require latest libyui (API change!)
-- V 2.17.7 
+- V 2.17.7
 
 -------------------------------------------------------------------
 Wed Sep 17 12:05:37 CEST 2008 - sh@suse.de
 
-- Fixed segfault in SetLanguage() without optional encoding 
+- Fixed segfault in SetLanguage() without optional encoding
 
 -------------------------------------------------------------------
 Fri Sep 12 16:43:04 CEST 2008 - sh@suse.de
 
 - Dropped obsolete widgetName()
 - Require latest libyui
-- v 2.17.6 
+- v 2.17.6
 
 -------------------------------------------------------------------
 Thu Sep 11 15:51:55 CEST 2008 - sh@suse.de
 
 - Require latest libyui
-- V 2.17.5 
+- V 2.17.5
 
 -------------------------------------------------------------------
 Thu Sep  4 15:34:30 CEST 2008 - sh@suse.de
@@ -375,14 +375,14 @@ Thu Aug 21 18:45:43 CEST 2008 - sh@suse.de
 Tue Jul 15 19:13:25 CEST 2008 - sh@suse.de
 
 - Implemented fate #303492: Multi selection for table widget
-- V 2.17.2 
+- V 2.17.2
 
 -------------------------------------------------------------------
 Fri May 16 12:32:24 CEST 2008 - sh@suse.de
 
 - Handle nonexistent widgets in UI::SetFocus() more gracefully
   (bnc #389126)
-- V 2.16.47 
+- V 2.16.47
 
 -------------------------------------------------------------------
 Wed Apr 30 15:08:14 CEST 2008 - lslezak@suse.cz
@@ -396,13 +396,13 @@ Wed Apr 30 15:08:14 CEST 2008 - lslezak@suse.cz
 Wed Apr 16 12:27:51 CEST 2008 - sh@suse.de
 
 - Let YDialog take care of deleting events
-- V 2.16.45 
+- V 2.16.45
 
 -------------------------------------------------------------------
 Mon Apr 14 16:39:51 CEST 2008 - sh@suse.de
 
 - Added `opt(`wizardDialog) to UI::OpenDialog():
-  Open a dialog in YWizardDialog mode (if supported by UI) 
+  Open a dialog in YWizardDialog mode (if supported by UI)
 - V 2.16.44
 
 -------------------------------------------------------------------
@@ -420,13 +420,13 @@ Thu Apr 10 19:51:59 CEST 2008 - sh@suse.de
 -------------------------------------------------------------------
 Thu Apr  3 15:25:08 CEST 2008 - sh@suse.de
 
-- Added `opt(`helpButton) for PushButton widgets 
+- Added `opt(`helpButton) for PushButton widgets
 - V 2.16.41
 
 -------------------------------------------------------------------
 Wed Mar 26 17:14:18 CET 2008 - sh@suse.de
 
-- Added UI::TextMode() (bnc #222948) 
+- Added UI::TextMode() (bnc #222948)
 - V 2.16.40
 
 -------------------------------------------------------------------
